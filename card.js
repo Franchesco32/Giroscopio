@@ -1,4 +1,4 @@
-const giro = document.querySelector(".card")
+const giro = document.querySelector(".container")
 
         giro.addEventListener('mousemove',(event)=>{
             const mouseX = event.clientX - giro.getBoundingClientRect().left;
